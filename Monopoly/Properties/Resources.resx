@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Green Colour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green Colour.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Community Chest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Community Chest.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Utility) Electric Company (Left Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Utility) Electric Company (Left Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chance (Bottom Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chance (Bottom Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Community Chest (Bottom Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Community Chest (Bottom Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Tax) Super Tax (Right Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Tax) Super Tax (Right Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black Border" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black Border.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_Car" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character_Car.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Green) Oxford Street" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Green) Oxford Street.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Character) Iron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Character) Iron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Station) Liverpool St station (Right Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Station) Liverpool St station (Right Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_Iron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character_Iron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Corner) Jail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Corner) Jail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Green) Bond Street" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Green) Bond Street.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Character) Boat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Character) Boat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black Border 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black Border 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Corner) Pass Go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Corner) Pass Go.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Light Blue) The Angel,  Islingotn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Light Blue) The Angel,  Islingotn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chance (Top Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chance (Top Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Corner) Go To Jail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Corner) Go To Jail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Corner) Free Parking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Corner) Free Parking.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Light Blue) Euston Road" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Light Blue) Euston Road.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Yellow) Coventry Street" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Yellow) Coventry Street.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Red) Strand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Red) Strand.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Station) Marylebone Station (Left Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Station) Marylebone Station (Left Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Green) Regent Street" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Green) Regent Street.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Orange) Marlborough Street" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Orange) Marlborough Street.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Pink) WhiteHall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Pink) WhiteHall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Orange) Vine Street" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Orange) Vine Street.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Dark Blue) Mayfair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Dark Blue) Mayfair.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Brown) Old Kent Road" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Brown) Old Kent Road.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Pink) Northunmr'd Avenue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Pink) Northunmr'd Avenue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chance (Right Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chance (Right Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Station) fenchurch St Station (Top Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Station) fenchurch St Station (Top Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Character) Wheels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Character) Wheels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monopoly_board" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monopoly_board.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monopoly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monopoly.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_Boat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character_Boat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Red) Fleet Street" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Red) Fleet Street.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Pink) Pall Mall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Pink) Pall Mall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_Shaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character_Shaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Tax) Income Tax (Bottom Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Tax) Income Tax (Bottom Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Character) Car" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Character) Car.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Orange) Bow Street" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Orange) Bow Street.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Brown) Whitechapel Road" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Brown) Whitechapel Road.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_Boot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character_Boot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green&amp;Black(Border)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green&amp;Black(Border).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Character) Hat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Character) Hat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Red) Trafalgar Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Red) Trafalgar Square.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Light Blue) Pentonville Road" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Light Blue) Pentonville Road.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Yellow) Piccadilly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Yellow) Piccadilly.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Character) Shaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Character) Shaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Yellow) Leicester Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Yellow) Leicester Square.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_Dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character_Dog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_Wheels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character_Wheels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Community Chest (Right Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Community Chest (Right Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Station) Kings Cross Station (Bottom Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Station) Kings Cross Station (Bottom Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Dark Blue) Park Lane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Dark Blue) Park Lane.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Community Chest (Left Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Community Chest (Left Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Utility) Water Works (Top Row)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Utility) Water Works (Top Row).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Character) Dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\(Character) Dog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="(Character) Boot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Character_Boot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="character_Hat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\character_Hat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\die11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\die21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\die31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\die41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\die51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="die6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\die61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
